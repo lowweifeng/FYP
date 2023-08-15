@@ -1,0 +1,27 @@
+.acg-page {
+    margin-bottom: 20px;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 40px;
+    will-change: transform, box-shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.acg-page:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow on hover */
+    transform: translateY(-3px);
+    /* Lift the container slightly on hover */
+}
+
+.acg-page h5 {
+    font-size: 24px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.acg-page p {
+    font-size: 16px;
+    line-height: 1.6;
+}

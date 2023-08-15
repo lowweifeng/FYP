@@ -1,0 +1,142 @@
+.userprofile {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.userprofile h2 {
+    color: #e91e63;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.userprofile .form-group {
+    margin-bottom: 20px;
+}
+
+.userprofile .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userprofile .form-group label {
+    color: #e91e63;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.userprofile .form-control {
+    background-color: #292929;
+    border: 1px solid #e91e63;
+    color: #ffffff;
+    width: 30%;
+    padding: 8px 10px;
+    /* Adjust the padding as needed */
+    transition: border-color 0.3s ease;
+}
+
+.userprofile .form-control:focus {
+    background-color: #1f1f1f;
+    border-color: #ff4081;
+    box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.25);
+    color: #ffffff;
+}
+
+.userprofile .btn-primary {
+    background-color: #e91e63;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.userprofile .btn-primary:hover {
+    background-color: #ff4081;
+    transform: scale(1.1);
+    /* Add a slight scale effect on hover */
+}
+
+.history-posts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.history-posts h1,
+.history-posts h3,
+.history-posts h5 {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.history-posts hr {
+    border-top: 1px solid #e91e63;
+    margin: 20px 0;
+}
+
+.history-posts p {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+/* Animation for post deletion */
+
+.history-posts .post-item {
+    position: relative;
+}
+
+.history-posts .post-item.deleting {
+    animation: fadeOut 0.5s ease;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* Animation for danger buttons on hover */
+
+.history-posts .btn-danger {
+    background-color: #e91e63;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.history-posts .btn-danger:hover {
+    background-color: #ff4081;
+    transform: scale(1.1);
+    /* Add a slight scale effect on hover */
+}
+
+.logout {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logout p {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.logout .btn-primary {
+    background-color: #e91e63;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.logout .btn-primary:hover {
+    background-color: #ff4081;
+}
+

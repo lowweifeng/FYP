@@ -1,0 +1,223 @@
+.container {
+    margin-top: 50px;
+}
+
+.category-link {
+    color: #000000;
+    /* Change the link color to black */
+    display: block;
+    margin-bottom: 24px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 102, 153, 0.3);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ff6699;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-link:hover {
+    text-decoration: none;
+    color: #ff3385;
+    /* Slight shadow on hover */
+}
+
+.feit-page {
+    background-color: #222222;
+    /* Darker background color */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Stronger shadow for depth */
+}
+
+.feit-page h5 {
+    color: #ffcc00;
+    /* Bright yellow for titles */
+    font-size: 32px;
+    /* Larger font size for titles */
+    margin-top: 0;
+    margin-bottom: 15px;
+    /* Increased margin for better separation */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Stronger text-shadow for titles */
+}
+
+.feit-page p {
+    margin-bottom: 15px;
+    /* Increased margin for better separation */
+    font-size: 18px;
+    /* Slightly increased font size for content */
+    line-height: 1.8;
+    /* Increased line height for better readability */
+    color: #ffffff;
+    /* White text color */
+}
+
+.feit-page .btn-reply {
+    background-color: #ff6699;
+    /* Vibrant pink for reply button */
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    /* Slightly increased padding */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Stronger shadow for depth */
+    text-transform: uppercase;
+    /* Uppercase text for a bold look */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /* Smooth transition */
+}
+
+.feit-page .btn-reply:hover {
+    background-color: #00cc66;
+    /* Bright green on hover */
+    color: #000000;
+    /* Black text color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Slight shadow on hover */
+}
+
+.reply {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #444444;
+    /* Darker background for replies */
+    margin-top: 20px;
+}
+
+.btn-report {
+    background-color: #ff0000;
+    /* Red for report button */
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Stronger shadow for depth */
+    text-transform: uppercase;
+    /* Uppercase text for a bold look */
+    margin-bottom: 10px;
+    /* Adjust as per your preference */
+}
+
+.btn-report:hover {
+    background-color: #ff3333;
+    /* Slightly brighter red on hover */
+    color: #ffffff;
+    /* White text color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Slight shadow on hover */
+}
+
+.btn-upload {
+    background-color: #00ff00;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    padding: 14px 28px;
+    /* Slightly increased padding */
+    border-radius: 5px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Stronger shadow for depth */
+    text-transform: uppercase;
+    /* Uppercase text for a bold look */
+}
+
+.btn-upload:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* Additional anime-themed styles */
+
+body {
+    background-image: url("Image/1459.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 50px;
+    position: relative;
+}
+
+.feit-page {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Stronger shadow for depth */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Transparent white background */
+}
+
+.feit-page h5 {
+    color: #ffcc00;
+    /* Bright yellow for titles */
+    font-size: 32px;
+    /* Larger font size for titles */
+    margin-top: 0;
+    margin-bottom: 15px;
+    /* Increased margin for better separation */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Stronger text-shadow for titles */
+}
+
+.feit-page p {
+    margin-bottom: 15px;
+    /* Increased margin for better separation */
+    font-size: 18px;
+    /* Slightly increased font size for content */
+    line-height: 1.8;
+    /* Increased line height for better readability */
+    color: #ffffff;
+    /* White text color */
+}
+
+.feit-page .btn-reply {
+    background-color: #ff6699;
+    /* Vibrant pink for reply button */
+    color: #000000;
+    /* Black text color */
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    /* Slightly increased padding */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Stronger shadow for depth */
+    text-transform: uppercase;
+    /* Uppercase text for a bold look */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /* Smooth transition */
+}
+
+.feit-page .btn-reply:hover {
+    background-color: #00cc66;
+    /* Bright green on hover */
+    color: #000000;
+    /* Black text color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Slight shadow on hover */
+}
+
+legend {
+    color: #ff6699;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(255, 102, 153, 0.3);
+}
+
+
+/* ... (previous styles) */

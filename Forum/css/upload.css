@@ -1,0 +1,104 @@
+/* Container styles */
+
+.upload-container {
+    margin-top: 20px;
+    max-width: 600px;
+    /* Limit the form width for better readability */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e91e63;
+    /* Add a border around the container */
+    animation: fadeIn 0.6s ease;
+    /* Add a fadeIn animation to the container */
+}
+
+
+/* Form styles */
+
+form {
+    margin: 0;
+}
+
+form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Title styles */
+
+legend {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/* Input styles */
+
+.form-control {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+    width: 100%;
+    /* Make the input fields fill the entire width of the container */
+    padding: 12px 15px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff4081;
+    /* Add a border around the focused input */
+}
+
+
+/* Upload button styles */
+
+.btn-upload {
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 12px 15px;
+    width: 100%;
+    margin-top: 20px;
+    /* Add some space between the button and the form */
+    transition: background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+    background-color: #ff4081;
+    /* Change the background color on hover */
+    cursor: pointer;
+    transform: scale(1.05);
+    /* Add a slight scale-up animation on hover */
+}
+
+
+/* Center the form on the page */
+
+.upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Animation for the container */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

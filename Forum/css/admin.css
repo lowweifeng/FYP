@@ -1,0 +1,99 @@
+/* admin.css */
+
+/* Container for admin page content */
+.admin-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Header styles */
+  .admin-page h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e91e63;
+  }
+  
+  /* Paragraph styles */
+  .admin-page p {
+    margin: 10px 0;
+    color: #e91e63;
+  }
+  
+  /* Form styles */
+  .admin-page form {
+    margin-top: 15px;
+  }
+  
+  .admin-page button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-page .btn-delete {
+    background-color: #e91e63;
+    color: #fff;
+  }
+  
+  .admin-page .btn-return {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  /* Result item styles */
+  .admin-page .result-item {
+    border-radius: 8px;
+    border: 3px solid #e91e63;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fce4ec;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .admin-page .result-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .admin-page .result-item h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #e91e63;
+    animation: slideInUp 0.5s ease-in-out;
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .admin-page .result-item p {
+    color: #1f1f1f;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  

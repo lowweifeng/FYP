@@ -1,0 +1,191 @@
+/* feit.css */
+
+
+/* ... Your previous CSS code ... */
+
+
+/* Container for the whole page */
+
+.pages-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+
+/* Category Sidebar */
+
+.col-md-3 {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pages-category-link {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    color: #e91e63;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #e91e63;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    /* Add color transition */
+}
+
+.pages-category-link:hover {
+    background-color: #e91e63;
+    border-color: #ff1a56;
+    color: #ffffff;
+    transform: translateY(-3px);
+    /* Add a slight upward translation on hover */
+}
+
+
+/* Forum Posts Section */
+
+.col-md-9 {
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Forum Post Container */
+
+.feit-page {
+    margin-bottom: 20px;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 40px;
+    will-change: transform, box-shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feit-page:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow on hover */
+    transform: translateY(-3px);
+    /* Lift the container slightly on hover */
+}
+
+.feit-page h5 {
+    font-size: 24px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.feit-page p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Report Button */
+
+
+/* Animation for the report button */
+
+.btn-report {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    /* Add color transition */
+}
+
+.btn-report:hover {
+    background-color: #ff4081;
+    color: #ffffff;
+    transform: scale(1.1);
+    /* Add a slight scale effect on hover */
+}
+
+
+/* Replies Section */
+
+
+/* Animation for the reply section */
+
+.reply {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 3px solid #e91e63;
+    padding-left: 10px;
+    will-change: transform, border-color;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.reply:hover {
+    border-color: #ff1a56;
+    /* Change the border color on hover */
+    transform: translateY(-3px);
+    /* Lift the container slightly on hover */
+}
+
+
+/* Animation for the reply button */
+
+.btn-reply {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 11px;
+    /* Add color transition */
+}
+
+.btn-reply:hover {
+    background-color: #ff4081;
+    color: #ffffff;
+    transform: scale(1.1);
+    /* Add a slight scale effect on hover */
+}
+
+
+/* Animation for the upload button */
+
+
+/* Animation for the upload button */
+
+.btn-upload {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+    background-color: #ff4081;
+    /* Change the background color on hover */
+    color: #ffffff;
+    /* Change the text color on hover */
+    transform: scale(1.05);
+    /* Slightly scale up the button on hover */
+}

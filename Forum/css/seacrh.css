@@ -1,0 +1,96 @@
+.search {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    /* Light pink for the search results section background */
+    margin-right: 200px;
+    padding: 10px;
+    opacity: 0;
+    /* Start with opacity 0 for the fade-in effect */
+    animation: fadeIn 1s ease-in-out forwards;
+    /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e91e63;
+    /* Pink color for the header text */
+    animation: slideInLeft 0.5s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+p {
+    margin: 10px 0;
+    color: #e91e63;
+    /* Pink color for the paragraph text */
+}
+
+.result-item {
+    border-radius: 8px;
+    border: 3px solid #e91e63;
+    /* Pink color for the result item border */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fce4ec;
+    /* Light pink for the result item background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    /* Apply fade-in animation */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Apply transition for the hover effect */
+}
+
+.result-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* Slight increase in box-shadow on hover */
+    transform: translateY(-5px);
+    /* Slide up 5px on hover */
+}
+
+.result-item h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #e91e63;
+    /* Pink color for the result item title */
+    animation: slideInUp 0.5s ease-in-out;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.result-item p {
+    color: #1f1f1f;
+    /* Black color for the result item description */
+    animation: fadeIn 0.5s ease-in-out;
+}
